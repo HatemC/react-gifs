@@ -8,3 +8,44 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.search {
+  background-color: rgba(171, 196, 196, 0.199);
+}
+.searchpos {
+width: 100%;
+height: 300px;
+}
+
+.selectedgif {
+width: 100%;
+
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  border: 1px solid black;
+  height: 700px;;
+}
+
+.rightside {
+
+width: 40%;
+border: 1px solid black;
+
+}
+
+.leftside {
+width: 60%;
+border: 1px solid black;
+
+}
+
+.gifelement {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.picgif {
+  size: 100px;
+}
